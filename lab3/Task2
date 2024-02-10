@@ -1,0 +1,5 @@
+def ftc():
+    F=input()
+    C = (5 / 9) * (int(F) - 32)
+    return C
+print (ftc())

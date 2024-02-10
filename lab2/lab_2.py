@@ -47,7 +47,7 @@ if 5 == 10 or 4 == 4:
 
 #Task 1 Print the second item in the fruits list.
 fruits = ["apple", "banana", "cherry"]
-print(fruits[2])
+print(fruits[1])
 
 #Task 2 Change the value from "apple" to "kiwi", in the fruits list.
 fruits = ["apple", "banana", "cherry"]
@@ -138,17 +138,15 @@ car = {
   "model": "Mustang",
   "year": 1964
 }
-car["year"]
- = 
-2020
+car["year"] = 2020
 
-#Task 3 Use the pop method to remove "model" from the car dictionary.
+#Task 3 Add the key/value pair "color" : "red" to the car dictionary.
 car =	{
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
 }
-car.pop("model")
+car["color"] = "red"
 
 #Task 4 Use the pop method to remove "model" from the car dictionary.
 car = {
@@ -315,7 +313,7 @@ def my_function(**kid):
 x = lambda a : a
 
 
-#Python Classes 
+#Python Classes
 
 #Task 1 Create a class named MyClass:
 class MyClass: x = 5

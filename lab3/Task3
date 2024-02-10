@@ -1,0 +1,8 @@
+numheads=int(input())
+numlegs=int(input())
+def solve(numheads, numlegs):
+    rabbits=(numlegs-numheads*2)/2
+    chickens=numheads-rabbits
+    return chickens, rabbits
+
+print(solve(numheads, numlegs))

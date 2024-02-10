@@ -1,0 +1,4 @@
+def og():
+    x=input()
+    return float(x) * 28.3495231
+print(og())
